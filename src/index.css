@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images//city.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper .filter {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.621);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper .brand_wrapper {
+    height: 16%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding-right: 2.5rem;
+}
+
+.wrapper .brand {
+    font-size: 2.3rem;
+    color: aliceblue;
+    list-style-type: none;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.wrapper p {
+    font-family: 'Shantell Sans', cursive;
+    color: rgba(240, 248, 255, 0.879);
+}
+
+.wrapper .pomo_zone {
+    height: 45%;
+    width: 33%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0px;
+}
+.wrapper .pomo_zone .pomo_btn_zone{
+    display: flex;
+}
+.wrapper .pomo_zone .pomo_btn_zone .pomo_btn {
+    min-width: 100px;
+    font-size: 16px;
+    margin: 0px 4px;
+    padding: 6px;
+    border-radius: 4px;
+    border: 2px solid aliceblue;
+    color: aliceblue;
+    background-color: transparent;
+    cursor: pointer;
+}
+.wrapper .pomo_zone .pomo_btn_zone .pomo_btn:hover{
+    background-color:aliceblue !important;
+    color:black;
+}
+
+.wrapper .pomo_zone .pomo_time {
+    font-size: 120px;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper .pomo_zone .pomo_start_btn {
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    background-color:aliceblue;
+}
+.wrapper .pomo_zone .pomo_pause_btn {
+    width: 200px;
+    height: 60px;
+    border-radius: 7px 0px 0px 7px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    background-color:brown;
+    
+}
+.wrapper .pomo_zone .pomo_resume_btn {
+    width: 200px;
+    height: 60px;
+    border-radius: 7px 0px 0px 7px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    background-color:seagreen;
+    color:#fff;
+}
+.wrapper .pomo_zone .pomo_start_btn:hover {
+    background-color: transparent;
+    border: 2px solid aliceblue;
+    color: aliceblue;
+    transition: all 0.2s ease;
+}
+.wrapper .pomo_zone .pomo_pause_btn:hover {
+    background-color: transparent;
+    border: 2px solid aliceblue;
+    color: aliceblue;
+    transition: all 0.2s ease;
+}
+.wrapper .pomo_zone .pomo_resume_btn:hover {
+    background-color: transparent;
+    border: 2px solid aliceblue;
+    color: aliceblue;
+    transition: all 0.2s ease;
+}
+.wrapper .pomo_zone .pomo_reset_btn{
+    width: 50px;
+    height: 60px;
+    background-color:goldenrod;
+    color: aliceblue;
+    border: none;
+    font-size: 20px;
+    border-radius: 0px 7px 7px 0px;
+    cursor: pointer;
+}
+.wrapper .pomo_zone .pomo_reset_btn:hover{
+    background-color:transparent;
+    border: 2px solid aliceblue;
+    color: aliceblue;
+    transition: all 0.2s ease;
+}
+.wrapper .spotify {
+    width: 25%;
+    height: 152px;
+    border-radius: 12px;
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+}
+
+@media only screen and (max-width:480px) {
+    .wrapper .spotify {
+        width: 100%;
+        height: 152px;
+        border-radius: 12px;
+        position: absolute;
+        bottom: 0rem;
+        left: 0rem;
+    }
+
+    .wrapper .brand_wrapper {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        padding-right: 1rem;
+    }
+    .wrapper .pomo_zone .pomo_time {
+        font-size: 100px;
+        color: aliceblue;
+        font-family: 'Poppins', sans-serif;
+    }
+    .wrapper .brand {
+        font-size: 1.5rem;
+        color: aliceblue;
+        list-style-type: none;
+        font-family: 'Shantell Sans', cursive;
+    }
+    .wrapper .pomo_zone {
+        margin-top: 3.5rem;
+    }
+}
