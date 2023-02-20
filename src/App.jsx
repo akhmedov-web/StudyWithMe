@@ -9,7 +9,7 @@ export default function App() {
   var upDatedSecund = time.s;
   function getTime() {
     run();
-    setInter(setInterval(run, 10));
+    setInter(setInterval(run, 1000));
     setStatus(1);
   }
   function pauseTime() {
