@@ -72,7 +72,6 @@ export default function App() {
           {(status == 0) ? <button className='pomo_start_btn' onClick={() => getTime()}>Start</button> : ""}
           {(status == 1) ? <div style={{ display: "flex" }}>
             <button className='pomo_pause_btn' onClick={() => pauseTime()}>Pause</button>
-            <button className='pomo_reset_btn' onClick={() => resetTime()}><i class="fa-solid fa-rotate-right"></i></button>
           </div> : ""}
           {(status == 2) ? <div style={{ display: "flex" }}>
             <button className='pomo_resume_btn' onClick={() => resumeTime()}>Resume</button>
