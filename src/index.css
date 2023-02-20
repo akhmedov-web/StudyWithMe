@@ -95,7 +95,7 @@
 .wrapper .pomo_zone .pomo_pause_btn {
     width: 200px;
     height: 60px;
-    border-radius: 7px 0px 0px 7px;
+    border-radius: 7px;
     border: none;
     cursor: pointer;
     text-transform: uppercase;
